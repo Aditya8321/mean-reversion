@@ -8,6 +8,7 @@ All plots and results are saved in the `results/` folder.
 
 ## **Project Structure**
 
+```bash
 mean_reversion_stat_arb/
 │
 ├── data/
@@ -25,6 +26,7 @@ mean_reversion_stat_arb/
 │
 └── README.md
 
+```
 ---
 
 ## **Workflow**
