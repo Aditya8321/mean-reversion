@@ -41,7 +41,7 @@ mean_reversion_stat_arb/
    - Calculate spread between the two assets.
 
 3. **Strategy Design** (`03_strategy_design.ipynb`)
-![Z-score and Trading Signals](results/signals.png)
+
    - Compute z-score of the spread.
    - Generate **long/short trading signals** based on z-score thresholds.
    - Apply **volatility-adjusted position sizing**.
