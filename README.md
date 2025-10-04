@@ -32,7 +32,7 @@ mean_reversion_stat_arb/
 ## **Workflow**
 
 1. **Data Collection** (`01_data_collection.ipynb`)
-   - Download historical stock prices (KO and PEP) using Yahoo Finance.
+   - Download historical stock prices (KO and MCD) using Yahoo Finance.
    - Clean data and handle missing values.
    
 2. **Cointegration Tests** (`02_cointegration_tests.ipynb`)
@@ -73,8 +73,8 @@ mean_reversion_stat_arb/
 
 ## **Performance Metrics**
 
-- **Sharpe Ratio:** 1.02  
-- **Max Drawdown:** 6%  
+- **Sharpe Ratio:** 2.49  
+- **Max Drawdown:** 2%  
 - **Total PnL:** depends on dataset and period  
 
 All metrics are calculated **including transaction costs**, using the rolling beta and volatility-adjusted positions.
